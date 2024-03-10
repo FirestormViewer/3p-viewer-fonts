@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # turn on verbose debugging output for parabuild logs.
-exec 4>&1; export BASH_XTRACEFD=4; set -x
+# exec 4>&1; export BASH_XTRACEFD=4; set -x
 # make errors fatal
 set -e
 # complain about unset env variables
