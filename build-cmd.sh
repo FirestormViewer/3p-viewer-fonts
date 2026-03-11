@@ -30,15 +30,15 @@ set +x
 set -x
 
 LICENSE_DIR="${STAGING_DIR}/LICENSES"
-test -d ${LICENSE_DIR} || mkdir ${LICENSE_DIR}
+mkdir -p "${LICENSE_DIR}"
 echo "See <FontName>-license.txt for each individual font's license" > "${LICENSE_DIR}/fonts.txt"
 
-fonts_version="1.0.0"
+fonts_version="${fonts_version:-1.0.0}"
 build=${AUTOBUILD_BUILD_ID:=0}
-echo "${fonts_version}.${build}" > "${STAGING_DIR}/VERSION.txt"
+echo "${fonts_version}" > "${STAGING_DIR}/VERSION.txt"
 
 FONTS_DIR="${STAGING_DIR}/fonts"
-test -d ${FONTS_DIR} || mkdir ${FONTS_DIR}
+mkdir -p "${FONTS_DIR}"
 
 cp -v "${SRC_DIR}"/*.ttf         "${FONTS_DIR}"
 cp -v "${SRC_DIR}"/*-license.txt "${LICENSE_DIR}"
