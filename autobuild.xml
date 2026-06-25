@@ -6,7 +6,7 @@
       <key>canonical_repo</key>
       <string>https://github.com/secondlife/3p-viewer-fonts</string>
       <key>copyright</key>
-      <string>Copyright 2016-2022 Brad Erickson CC-BY-4.0/MIT, Copyright 2016-2022 Twitter, Inc. CC-BY-4.0, Copyright 2013 Joe Loughry and Terence Eden MIT</string>
+      <string>Copyright 2016-2022 Brad Erickson CC-BY-4.0/MIT, Copyright 2016-2022 Twitter, Inc. CC-BY-4.0, Copyright 2013 Joe Loughry and Terence Eden MIT, Copyright 2022 The Inter Project Authors (https://github.com/rsms/inter-tight) SIL Open Font License, Version 1.1</string>
       <key>description</key>
       <string>Viewer fonts</string>
       <key>license</key>
